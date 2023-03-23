@@ -1,0 +1,278 @@
+/*cuerpo*/
+body {
+    background-color: #9c27b0;
+    font-family: 'Staatliches', cursive;;
+}
+
+/* home */
+.main_home {
+    background-image: url(/img/fondo.jpg);
+    height: 100vh;
+}
+
+.fondo {
+    width: 100%;
+    padding: 0;
+}
+
+/* packs */
+.contenedor_packs {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.pack {
+    padding: 5px;
+    transition: .2s;
+}
+
+.pack:hover{
+    transform: scale(1.1);
+}
+
+.packs {
+    height: 390px;
+    padding: 12px;
+    background-color: #89119D;
+    border-radius: 5px;
+}
+
+/* nav */
+.navegacion {
+    display: flex;
+    justify-content: center;
+    background-color: #89119D;
+    padding: 20px;
+    gap: 0 30px;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.navegacion_enlace {
+    color: white;
+}
+
+.navegacion_enlace:hover {
+    background-color:#FFCE00;
+    color:#aa33da;
+    border-radius: 100px;
+}
+
+.navegacion_iniciar:hover {
+    background-color:#FFCE00;
+    border-radius: 100px;
+}
+
+/* h1 h2 h3 p */
+h1 {
+    font-size: 40px;
+    color: #FFCE00;
+    text-align: center;
+}
+
+h2 {
+    color: #FFCE00;
+    font-size: 50px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+h3 {
+    color: #FFCE00;
+    font-size: 25px;
+    margin: 0 0 0 10px;
+}
+
+p {
+    color: white;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* productos */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    gap: 2rem;
+    width: 55%;
+}
+
+.producto_nombre {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    line-height: 1.2;
+    margin-top  : 10px;
+}
+
+.producto_precio {
+    color: #FFCE00;
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.producto_imagen {
+    height: 390px;
+}
+
+.producto {
+    background-color: #89119D;
+    padding: 12px;
+    width: 304px;
+    height: 495px;
+    border-radius: 5px;
+    transition: .2s;
+}
+
+.producto:hover{
+    transform: scale(1.1);
+}
+
+/* nosotros */
+.nosotros {
+    display: grid;
+    grid-template-columns: (2, 1fr);
+    width: 50%;
+    gap: 25px;
+    margin: 30px 0;
+}
+
+.nosotros_texto {
+    margin: auto 0;
+    font-size: 20px;
+}
+
+.nosotros_imagen {
+    grid-row: 1 / 2;
+    grid-column: 2 / 2;
+}
+
+.bloques {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.bloque {
+    text-align: center;
+}
+
+.bloque_titulo {
+    margin-bottom: 25px;
+}
+
+/* form */
+.formulario {
+    background-color: #aa33da;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    width: min( 500px, 100% );
+    box-shadow: 0px 0px 20px -5px;
+}
+
+.formulario fieldset {
+    border: none;
+}
+
+.formulario legend {
+    color: #FFCE00;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* inputs */
+.inputs {
+    margin-bottom: 20px;
+}
+
+.inputs label {
+    color: white;
+    font-weight: 400;
+    margin-bottom: 15px;
+    display: block;
+    font-size: 20px;
+}
+
+.inputs textarea {
+    margin-bottom: 30px;
+    height: 150px;
+    resize:none;
+    width: 100%;
+    padding: 2px 0 0 5px;
+}
+
+.input_text {
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    width: 100%;
+}
+
+
+/* boton */
+.boton {
+    background-color: #f0f2eb;
+    color: #9c27b0;
+    padding: 10px 10px;
+    border-radius: 100px;
+    width: 75px;
+    text-align: center;
+    border: 2px solid #33053b;
+    cursor: pointer;
+}
+
+/* iniciar sesion registrar */
+.sesion {
+    color: white;
+}
+
+.contenedor_register {
+    display: inline-block;
+    margin-left: 180px;
+}
+
+/* footer */
+footer {
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: #89119D;
+    margin: 30px 0px 0px 0px;
+}
+
+.mainVh {
+    height: 100vh;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    list-style-type: none;
+}
+
+.lista_input {
+    text-decoration: none;
+    color: white;
+}
+
+.lista_input:hover {
+    background-color:#FFCE00;
+    color:#aa33da;
+    border-radius: 100px;
+}

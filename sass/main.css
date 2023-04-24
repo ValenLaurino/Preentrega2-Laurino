@@ -110,7 +110,7 @@ p {
 /* productos */
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   justify-content: center;
   place-items: center;
   gap: 2rem;
@@ -293,7 +293,7 @@ ul {
     flex-direction: row;
   }
   .grid {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
   .bloques {
     grid-template-columns: repeat(3, 1fr);
@@ -308,4 +308,11 @@ ul {
   .nosotros_imagen {
     grid-column: 2/3;
   }
+
+  @media (max-width: 599px) {
+    .grid { grid-template-columns: 1fr;
+}
+  
+  @media (max-width: 1024px) {
+    .grid { grid-template-columns: 1fr 1fr 1fr;
 }/*# sourceMappingURL=main.css.map */
